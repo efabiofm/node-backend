@@ -1,13 +1,17 @@
 {
   "name": "node-backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.2",
+  "description": "A Node.js + Express + MongoDB project example",
+  "main": "src/index.js",
   "scripts": {
     "build": "rimraf dist; babel src -d dist --source-maps",
     "dev": "nodemon -r dotenv/config --exec babel-node src"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/efabiofm/node-backend.git"
+  },
+  "author": "Fabio Flores <efabiofm@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^3.0.7",
